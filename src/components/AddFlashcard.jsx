@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import 'C:/Users/anshu/Downloads/my-app/src/Flashcard.css'
+import '../Flashcard.css'
 
 function AddFlashcard({ onAdd }) {
   const [question, setQuestion] = useState('');

@@ -1,8 +1,8 @@
 
 import './App.css';
 import Flashcard from './Flashcard';
-import AddFlashcard from 'C:/Users/anshu/Downloads/my-app/src/components/AddFlashcard';
-import EditFlashcard from 'C:/Users/anshu/Downloads/my-app/src/components/EditFlashcard';
+import AddFlashcard from './components/AddFlashcard';
+import EditFlashcard from './components/EditFlashcard';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
